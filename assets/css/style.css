@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornsilk;
+}
+.task, #para{
+    color: red;
+}
+#header1{
+    color: blue;
+}
+.order, #header1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+    color: green;
+}
