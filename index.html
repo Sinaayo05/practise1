@@ -7,20 +7,100 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1 class="task order">
-        hello world
-    </h1>
-    <h1 id="header1">
-        hello world
-    </h1>
-    <h1 class="task">
-        hello world
-    </h1>
-    <p class="order" id="para">
-        welcome to tedprime hub
-    </p>
-    <h3>
-        frontend development
-    </h3>
+    <header>
+        <a href="" id="logo">
+            <h1>
+                Foody
+            </h1>
+        </a>
+        
+        <a href="pages/search.html" id="searchBar">
+            <form action="#" method="get">
+                <input type="search" name="search" id="search" placeholder="search for food">
+            </form>
+        </a>
+
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Categories</a>
+            </li>
+            <li>
+                <a href="#">Foods</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Landing page -->
+        <div id="landingPage">
+            <h1>
+                Welcome to Foody
+            </h1>
+            <p>
+                We are a team of talented chefs making the best food in the country. 
+            </p>
+            <a href="#explore" class="btn">Explore Foods</a>
+        </div>
+
+        <!-- explore -->
+        <div id="explore">
+           <div class="foodExplore">
+            <img src="assets/img/burger-4385386_640.jpg" alt="burger">
+            <h4>Burger</h4>
+           </div>
+           <div class="foodExplore">
+            <img src="assets/img/pexels-ash-craig-122861-376464.jpg" alt="pancake">
+            <h4>Pancake</h4>
+           </div>
+           <div class="foodExplore">
+            <img src="assets/img/pexels-daniela-elena-tentis-118658-262959.jpg" alt="ribs">
+            <h4>Ribs</h4>
+           </div>
+           <div class="foodExplore">
+            <img src="assets/img/pexels-janetrangdoan-1099680.jpg" alt="cereal">
+            <h4>Cereal</h4>
+           </div>
+           <div class="foodExplore">
+            <img src="assets/img/pexels-jonathanborba-2983101.jpg" alt="fries">
+            <h4>Chicken and Chips</h4>
+           </div>
+           <div class="foodExplore">
+            <img src="assets/img/pexels-owpictures-106343.jpg" alt="wings">
+            <h4>Chicken wings</h4>
+           </div>
+           <div class="foodExplore">
+            <img src="assets/img/pexels-pascal-claivaz-66964-410648.jpg" alt="Meat">
+            <h4>Meat</h4>
+           </div>
+           <div class="foodExplore">
+            <img src="assets/img/pexels-rajesh-tp-749235-1633525.jpg" alt="bread">
+            <h4>Bread</h4>
+           </div>
+        </div>
+
+        <!-- contact form -->
+        <div id="formDiv">
+            <form action="#" method="post">
+                <h2>Contact Us</h2>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <button type="button">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            All rights reserved. Designed By <a href="#">Sinaayo</a>
+        </p>
+    </footer>
 </body>
 </html>
